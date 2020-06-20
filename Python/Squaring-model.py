@@ -1,7 +1,5 @@
 def DoubleSquare(B):
-    array = []
-    back = []
-    i = 0
+    array, back, i = [], [], 0
 
     def ifFunc(a, b, c):
         if (len(back) == a):

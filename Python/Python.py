@@ -46,20 +46,14 @@ class Python:
         o, p = p, o
         print(o, p)
 
-    def Reverse_String(string):
-        # * Reversing a String
-        name = string
-        rev_name = name[::-1]
-        print(rev_name)
-
-    def Split_Letter(string):
+    def Split_Letter(self, string):
         # * Splitting letter spaces in a Line
         school, my_list = string, []
         for word in school:
             my_list.append(word)
         print(my_list)
 
-    def Split_Word(string):
+    def Split_Word(self, string):
         # * Splitting Word in a Line using Iterations
         start, end, my_list = 0, 0, []
         for x in string:
@@ -71,26 +65,20 @@ class Python:
                 my_list.append(string[start:end])
         print(my_list)
 
-    def Split_Word_Using_Split(string):
+    def Split_Word_Using_Split(self, string):
         # * Splitting Word in a Line using Split Functions
         my_list = string.split(' ')
         print(my_list)
 
-    def Join_List(your_list):
+    def Join_List(self, your_list):
         joined = ' '.join(list)
         print(joined)
 
-    def Multi_print():
-        # * Printing a string multiple Times
-        n = int(input("How many times do you want to repeat: "))
-        my_string = "Python\n"
-        print(my_string * n)
-
-    def Most_Frequent(your_list):
+    def Most_Frequent(self, your_list):
         most_frequent = max(set(your_list), key=your_list.count)
         print(most_frequent)
 
-    def Occurence(your_list):
+    def Occurence(self, your_list):
         my_list = []
         for x in your_list:
             frequency = max(set(your_list), key=your_list.count)

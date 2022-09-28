@@ -27,7 +27,9 @@ def diagonal_diff():
             return finals
         else:
             finals = main[0]
+
             return finals
+
     else:
         print("Please input number -100 <= n <= 100 ")
 

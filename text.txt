@@ -1,0 +1,16 @@
+jlobal]
+
+
+
+test
+
+test 2
+
+Hello world
+Quick now bad hello world~!!!!!!!!
+
+
+
+hjkl - navigation
+iIaA - editing in line
+xr - making changes while in command mode

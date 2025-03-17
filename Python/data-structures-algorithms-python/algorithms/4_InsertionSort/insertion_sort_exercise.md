@@ -5,6 +5,7 @@ Compute the running median of a sequence of numbers. That is, given a stream of 
 Recall that the median of an even-numbered list is the average of the two middle numbers in a *sorted list*.
 
 For example, given the sequence `[2, 1, 5, 7, 2, 0, 5]`, your algorithm should print out:
+[0,1,2,2,5,5,7]
 
 ```
 2
@@ -15,6 +16,5 @@ For example, given the sequence `[2, 1, 5, 7, 2, 0, 5]`, your algorithm should p
 2
 2
 ```
-
 
  [Solution](https://github.com/codebasics/data-structures-algorithms-python/blob/master/algorithms/4_InsertionSort/insertion_sort_exercise_solution.py)
